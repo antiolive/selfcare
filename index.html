@@ -1,9 +1,51 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+        }
+        .product-container {
+            border: 1px solid #ccc;
+            padding: 20px;
+            background-color: #ffffff;
+            width: 300px;
+            margin: 20px auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .product-container img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        .product-name {
+            margin: 15px 0 5px;
+            font-size: 18px;
+            color: #0073e6;
+            text-decoration: none;
+        }
+        .product-name:hover {
+            text-decoration: underline;
+        }
+        .product-price {
+            font-size: 16px;
+            color: #333;
+        }
+    </style>
 </head>
 <body>
-  
+    <h1>Products</h1>
+    <div class="product-container">
+        <img src="https://via.placeholder.com/300x300?text=JBL+Clip+4" alt="JBL Clip 4">
+        <a href="https://amzn.to/410GDgk" class="product-name">JBL Clip 4</a>
+        <div class="product-price">₩40,000</div>
+    </div>
 </body>
-  
 </html>
